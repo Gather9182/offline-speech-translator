@@ -1,5 +1,5 @@
 # Realtime Speech Translator (Offline) with Terminology RAG (Postgres + pgvector)
-![Project Logo](logo.png)
+![Project logo](logo.png)
 
 This repository contains an end-to-end prototype for near real-time speech translation with **offline-first** execution, **domain terminology enforcement**, and an optional **vector-based terminology retriever** built on **PostgreSQL + pgvector**.
 
@@ -72,6 +72,8 @@ Runtime pipeline (high level):
 8. **TTS** (Piper) → **Audio Out**
 
 Each segment logs timing for performance tuning (STT, glossary/RAG, MT, post-edit, TTS).
+
+![Project architecture](architecture.png)
 
 ## Configuration
 
