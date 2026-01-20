@@ -1,0 +1,8 @@
+src_lang,tgt_lang,src_term,tgt_term,mode,priority
+en,de,track maintenance,Gleisarbeiten,force,100
+en,de,signal box,Stellwerk,force,90
+en,de,tracks,Gleise,force,10
+en,de,ETCS,ETCS,protect,100
+en,de,ÖBB,ÖBB,protect,100
+en,de,OeBB,ÖBB,force,100
+en,de,OBB,ÖBB,force,100

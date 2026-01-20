@@ -1,0 +1,18 @@
+# Core runtime
+numpy
+sounddevice
+webrtcvad
+faster-whisper
+argostranslate
+requests
+piper-tts
+language-tool-python
+german-nouns
+
+# Postgres / pgvector runtime (rag.backend=postgres|postgres_vector)
+psycopg[binary]
+pgvector
+
+# Terminology import (XLSX + embeddings)
+openpyxl
+sentence-transformers

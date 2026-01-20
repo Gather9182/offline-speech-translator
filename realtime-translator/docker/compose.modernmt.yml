@@ -1,0 +1,16 @@
+services:
+  modernmt:
+    image: modernmt/master:v4.9.5
+    container_name: modernmt
+    ports:
+      - "8045:8045"
+    volumes:
+      - .\data\train:/data/train:ro
+      - modernmt_data:/opt/mmt/runtime
+    restart: "no"
+    tty: true
+    stdin_open: true
+    command: ["bash", "-lc", "sleep infinity"]
+
+volumes:
+  modernmt_data:
