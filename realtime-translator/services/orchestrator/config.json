@@ -23,13 +23,13 @@
     "modernmt_url": "http://127.0.0.1:8045/translate"
   },
   "rag": {
-    "terms_csv": "C:\\Entwicklung\\oebb-projekt\\realtime-translator\\rag\\terminology\\rail_terms.csv",
+    "terms_csv": "C:\\realtime-translator\\rag\\terminology\\rail_terms.csv",
     "backend": "postgres_vector",
     "pg_dsn": "postgresql://postgres:oebb@127.0.0.1:5432/terminology"
   },
   "tts": {
-    "voice_model": "C:\\Entwicklung\\oebb-projekt\\realtime-translator\\services\\tts\\voices\\de_DE-thorsten-medium.onnx",
-    "tmp_wav": "C:\\Entwicklung\\oebb-projekt\\realtime-translator\\services\\orchestrator\\tts_out.wav"
+    "voice_model": "C:\\realtime-translator\\services\\tts\\voices\\de_DE-thorsten-medium.onnx",
+    "tmp_wav": "C:\\realtime-translator\\services\\orchestrator\\tts_out.wav"
   },
   "postedit": {
     "mode": "fast",
@@ -39,3 +39,4 @@
     "debug": 1
   }
 }
+
