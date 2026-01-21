@@ -119,10 +119,11 @@ An ANN index can be created via HNSW (preferred) or IVFFLAT (fallback).
 The repository includes helper CMD scripts:
 
 * `setup.cmd` — creates/activates `.venv`, installs dependencies, performs sanity import checks
-* `run.cmd` (launcher) — starts the realtime app
-* `run_terminology_import.cmd` — one-click terminology import into Postgres/pgvector
+* `setup_postgres.cmd` — one-click installer postgres & the used database tables
+* `setup_terminology.cmd` — one-click terminology import (of sample data) into Postgres/pgvector
 * `edit_config.cmd` — runs the interactive config editor
-* `voice_manager.cmd` — starts the Piper voice manager
+* `voice_manager.cmd` — starts the Piper voice manager to install and manage voices
+*  `run.cmd` (launcher) — starts the realtime app
 
 Depending on your environment you may also need:
 
